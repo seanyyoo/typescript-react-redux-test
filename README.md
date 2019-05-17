@@ -2,13 +2,13 @@
 
 ### Instructions
 
-Please write a react typescript redux app to display a table using this api endpoint https://jsonplaceholder.typicode.com/users.  The project should also include sufficient unit tests.
+Please write a react typescript (or javascript) redux app to display a table using this api endpoint https://jsonplaceholder.typicode.com/users.  The project should also include sufficient unit tests.
 
 Tools to use
-- create-react-app https://github.com/facebook/create-react-app
-- redux - https://redux.js.org/
-- jest - https://jestjs.io/
-- redux-thunk - https://github.com/reduxjs/redux-thunk
+- **create-react-app** https://github.com/facebook/create-react-app
+- **redux** - https://redux.js.org/
+- **jest** - https://jestjs.io/
+- **redux-thunk** - https://github.com/reduxjs/redux-thunk
   
 
 Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.  
