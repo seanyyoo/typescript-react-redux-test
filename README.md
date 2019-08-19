@@ -13,11 +13,13 @@ Tools to use
 - **redux-thunk** - https://github.com/reduxjs/redux-thunk
   
 
-Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.  
+1. Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.   
   - The `Name` column should use `user.name`
   - The `Email` column should use `user.email`
   - The `City` column should use `user.address.city` 
   - The `Company` column should use `user.company.name`.
+  
+<input placeholder="search by name" />
 
 | Name        | Email           | City  | Company |
 | ------------- |:-------------:| -----:| -----:  |  
@@ -25,7 +27,18 @@ Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating
 | Ervin Howell    | Shanna@melissa.tv      |   Wisokyburgh |    Deckow-Crist     |
 | zebra stripes | Nathan@yesenia.net      |    McKenziehaven |      Romaguera-Jacobson   |
 
-The api endpoint gives back json looking like the following 
+2. Add an input field to search based on name.  For instance if "Lea" is entered, only the "Leanne Graham" row should show in the table.
+   
+   
+<input placeholder="search by name" />
+
+| Name        | Email           | City  | Company |
+| ------------- |:-------------:| -----:| -----:  |  
+| Leanne Graham      | Sincere@april.biz | Gwenborough |   Romaguera-Crona      |
+
+3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts
+
+`https://jsonplaceholder.typicode.com/users` gives back json looking like the following 
 ```json
 [
   {
@@ -100,3 +113,20 @@ The api endpoint gives back json looking like the following
 ]
   ```
 
+`https://jsonplaceholder.typicode.com/posts?userId=1` responds with the following 
+```json
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  }
+]
+```
