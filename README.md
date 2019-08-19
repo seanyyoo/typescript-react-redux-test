@@ -4,6 +4,8 @@
 
 Please write a react typescript (or javascript) redux app to display a table using this api endpoint https://jsonplaceholder.typicode.com/users.  **The project should also include sufficient unit tests**.
 
+Please try to complete all 3 features described.
+
 We'll evalulate mainly on code readability and code reusability.
 
 - Tools to use:
@@ -13,7 +15,7 @@ We'll evalulate mainly on code readability and code reusability.
   - **redux-thunk** - https://github.com/reduxjs/redux-thunk
   
 
-1. Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.   
+**Feature 1.** Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.   
      - The `Name` column should use `user.name`
      - The `Email` column should use `user.email`
      - The `City` column should use `user.address.city` 
@@ -25,7 +27,7 @@ We'll evalulate mainly on code readability and code reusability.
 | Ervin Howell    | Shanna@melissa.tv      |   Wisokyburgh |    Deckow-Crist     |
 | zebra stripes | Nathan@yesenia.net      |    McKenziehaven |      Romaguera-Jacobson   |
 
-2. Add an input field to search based on name.  For instance if "Lea" is entered, only the "Leanne Graham" row should show in the table.
+**Feature 2.** Add an input field to search based on name.  For instance if "Lea" is entered, only the "Leanne Graham" row should show in the table.
    
    
 <input placeholder="search by name" />
@@ -34,7 +36,7 @@ We'll evalulate mainly on code readability and code reusability.
 | ------------- |:-------------:| -----:| -----:  |  
 | Leanne Graham      | Sincere@april.biz | Gwenborough |   Romaguera-Crona |
 
-3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts.
+**Feature 3.** Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts.
    
 <h3>Leanne Graham's Posts:</h3>
 
