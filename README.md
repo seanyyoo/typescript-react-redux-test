@@ -6,20 +6,18 @@ Please write a react typescript (or javascript) redux app to display a table usi
 
 We'll evalulate mainly on code readability and code reusability.
 
-Tools to use
-- **create-react-app** https://github.com/facebook/create-react-app
-- **redux** - https://redux.js.org/
-- **jest** - https://jestjs.io/
-- **redux-thunk** - https://github.com/reduxjs/redux-thunk
+- Tools to use:
+  - **create-react-app** https://github.com/facebook/create-react-app
+  - **redux** - https://redux.js.org/
+  - **jest** - https://jestjs.io/
+  - **redux-thunk** - https://github.com/reduxjs/redux-thunk
   
 
 1. Develop a table with 4 columns `Name`, `Email`, `City`, and `Company` populating the rows with the response from the api endpoint https://jsonplaceholder.typicode.com/users.   
-  - The `Name` column should use `user.name`
-  - The `Email` column should use `user.email`
-  - The `City` column should use `user.address.city` 
-  - The `Company` column should use `user.company.name`.
-  
-<input placeholder="search by name" />
+     - The `Name` column should use `user.name`
+     - The `Email` column should use `user.email`
+     - The `City` column should use `user.address.city` 
+     - The `Company` column should use `user.company.name`.
 
 | Name        | Email           | City  | Company |
 | ------------- |:-------------:| -----:| -----:  |  
@@ -34,9 +32,15 @@ Tools to use
 
 | Name        | Email           | City  | Company |
 | ------------- |:-------------:| -----:| -----:  |  
-| Leanne Graham      | Sincere@april.biz | Gwenborough |   Romaguera-Crona      |
+| Leanne Graham      | Sincere@april.biz | Gwenborough |   Romaguera-Crona |
 
 3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts
+   
+
+<span> Leanne Graham Posts: </span>
+| Title        | Body            |
+| ------------- |:-------------:|  
+| Leanne Graham      | Sincere@april.biz |
 
 `https://jsonplaceholder.typicode.com/users` gives back json looking like the following 
 ```json
