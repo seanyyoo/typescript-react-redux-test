@@ -29,8 +29,7 @@ We'll evalulate mainly on code readability and code reusability.
 
 **Feature 2.** Add an input field to search based on name.  For instance if "Lea" is entered, only the "Leanne Graham" row should show in the table.
    
-   
-<input placeholder="search by name" />
+(InputField Element to Search)
 
 | Name        | Email           | City  | Company |
 | ------------- |:-------------:| -----:| -----:  |  
