@@ -4,7 +4,7 @@
 
 Please write a react typescript (or javascript) redux app to display a table using this api endpoint https://jsonplaceholder.typicode.com/users.  **The project should also include sufficient unit tests**.
 
-Please try to complete all 3 features described.
+Please try to complete all **3 features** described.
 
 We'll evalulate mainly on code readability and code reusability.
 
