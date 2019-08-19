@@ -34,13 +34,13 @@ We'll evalulate mainly on code readability and code reusability.
 | ------------- |:-------------:| -----:| -----:  |  
 | Leanne Graham      | Sincere@april.biz | Gwenborough |   Romaguera-Crona |
 
-3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts
+3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts.
    
+<h3>Leanne Graham's Posts:</h3>
 
-Leanne Graham Posts:
-| Title        | Body            |
-| ------------- |:-------------:|  
-| Leanne Graham      | Sincere@april.biz |
+| Title        | Body           |
+| ------------- |:-------------:|
+| sunt aut facere repellat provident occaecati excepturi optio reprehenderit      | quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto |
 
 `https://jsonplaceholder.typicode.com/users` gives back json looking like the following 
 ```json
