@@ -37,7 +37,7 @@ We'll evalulate mainly on code readability and code reusability.
 3. Make the rows clickable.  When a row is clicked, the website should show the user's posts.  You can utilize this api, `https://jsonplaceholder.typicode.com/posts?userId=1` for retrieve a user's posts
    
 
-<span> Leanne Graham Posts: </span>
+Leanne Graham Posts:
 | Title        | Body            |
 | ------------- |:-------------:|  
 | Leanne Graham      | Sincere@april.biz |
